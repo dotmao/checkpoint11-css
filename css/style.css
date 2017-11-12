@@ -1,0 +1,92 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+body {
+  display: block;
+  margin: 8px;
+
+}
+
+.container {
+  width: 375px;
+  margin: 2.5% auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size:2em;
+  margin: 8px;
+
+}
+
+.emphasis {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 550;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.preview-baku {
+    position: relative;
+    text-align: center;
+}
+
+.preview-london {
+    position: relative;
+    text-align: center;
+}
+
+.preview-madrid {
+    position: relative;
+    text-align: center;
+}
+
+
+.preview-rome {
+    position: relative;
+    text-align: center;
+}
+.image {
+  position: relative;
+  width:100%;
+  max-width: 100%;
+  /*the image will scale down if it has to, but never scale up to be larger than its original size */
+  height: auto;
+  margin:2%;
+
+}
+
+.top-left {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+
+@media screen and (min-width: 575px){
+   img {
+    margin: 1%;
+    width: 48%;
+    display: inline-block;
+  }
+
+
+}
+
+@media screen and (min-width: 991px){
+   img {
+    margin: 1%;
+    width: 32%;
+    display: inline-block;
+  }
+
+}
