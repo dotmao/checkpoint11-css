@@ -2,28 +2,25 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #dadada;
   font-size: 10px;
-}
-
-body {
   display: block;
   margin: 8px;
-
 }
 
-.container {
-  width: 375px;
-  margin: 2.5% auto;
-}
+
 
 h1 {
   font-weight: 400;
   font-size:2em;
   margin: 8px;
 
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
 }
 
 .emphasis {
@@ -55,12 +52,12 @@ h1 {
     position: relative;
     text-align: center;
 }
+
 .image {
   position: relative;
   width:100%;
   max-width: 100%;
   /*the image will scale down if it has to, but never scale up to be larger than its original size */
-  height: auto;
   margin:2%;
 
 }
@@ -73,7 +70,7 @@ h1 {
 
 
 @media screen and (min-width: 575px){
-   img {
+   div {
     margin: 1%;
     width: 48%;
     display: inline-block;
@@ -83,9 +80,9 @@ h1 {
 }
 
 @media screen and (min-width: 991px){
-   img {
+   div {
     margin: 1%;
-    width: 32%;
+    width: 24%;
     display: inline-block;
   }
 
