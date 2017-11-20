@@ -8,9 +8,37 @@ body {
 }
 
 
+
+#baku, #london, #madrid, #rome {
+  display: inline-block;
+}
+
+
+
+#baku {
+  background: url('/images/baku.jpg') no-repeat;
+  background-size: cover;
+}
+
+#london {
+  background: url('/images/london.png') no-repeat;
+  background-size: cover;
+}
+
+#madrid {
+  background: url('/images/madrid.jpg') no-repeat;
+  background-size: cover;
+}
+
+#rome {
+  background: url('/images/rome.jpg') no-repeat;
+  background-size: cover;
+}
+
+
 .container {
   width: 90%;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 .emphasis {
@@ -22,9 +50,15 @@ body {
   margin-top: 5%;
 }
 
+.text {
+  padding: 20px 20px;
+  font-size: 2em;
+
+}
+
 .image {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 200px;
 }
 
 div {
